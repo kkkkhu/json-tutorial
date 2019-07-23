@@ -5,10 +5,10 @@ CONFIG -= qt
 
 SOURCES += \
         leptjson.c \
-        main.c \
         test.c
 
 HEADERS += \
     leptjson.h
 
-DISTFILES +=
+DISTFILES += \
+    doc/doc.md
